@@ -1,0 +1,856 @@
+.fullpage {
+    display: flex;
+    flex-direction: column;
+    background-color: #040404;
+    padding-left: 5px;
+    padding-right: 20px;
+}
+
+
+.navigation {
+    width: 100%;
+    background: #D81A44;
+    font-family: 'Dm Sans';
+    padding: 15px;
+}
+
+.Nav_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.home {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 400px;
+    padding: 5px;
+}
+
+
+#logo:hover {
+    width: 100px;
+
+}
+
+.menu a {
+    color: #fff;
+}
+
+.Navigation_logo {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400px;
+}
+
+.menu li {
+    font-family: "Ubuntu";
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 400px;
+
+}
+
+#UX {
+    color: #fff
+}
+
+
+.mainpage {
+    width: 100%;
+    font-family: "Ubuntu", san-serif;
+    /* padding-left: 15px; */
+}
+
+.Laughing_Ryan {
+    margin-left: 35%;
+    animation: fadeIn 15s;
+    -webkit-animation: fadeIn 10s;
+    -moz-animation: fadeIn 10s;
+    -o-animation: fadeIn 10s;
+    -ms-animation: fadeIn 20s;
+}
+
+.Professional_Ryan {
+    animation: fadeIn 15s;
+    -webkit-animation: fadeIn 10s;
+    -moz-animation: fadeIn 10s;
+    -o-animation: fadeIn 10s;
+    -ms-animation: fadeIn 20s;
+
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.main_Grid {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: [col]1fr [col]1fr;
+    grid-template-rows: [row]1fr;
+}
+
+.main_Grid_item {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.main_Grid_item.p1 {
+    grid-column: col 1;
+    grid-row: row 1;
+}
+
+.main_Grid_item.p2 {
+    grid-column: col 2;
+    grid-row: row 1;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+
+
+
+.welcometext {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 20%;
+}
+
+
+#line1 {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    color: #fff;
+    height: 25%;
+    align-content: flex-end;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+
+#line2 {
+    display: flex;
+    flex-direction: row;
+    font-size: 60px;
+    font-weight: 600px;
+    color: #fff;
+    height: 8%;
+    align-items: flex-end;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+#line3 {
+    display: flex;
+    flex-direction: row;
+    font-size: 60px;
+    font-weight: 600px;
+    color: #D81A44;
+    height: 9%;
+    justify-content: flex-start;
+}
+
+#line4 {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    color: #fff;
+    height: 8%;
+    justify-content: flex-start;
+}
+
+/* Project Page */
+
+.myprojectspage {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50%;
+}
+
+.myprojects {
+    font-size: 60px;
+    color: #fff;
+    font-family: "Ubuntu", san-serif;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.specificprojects {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.Projecttile {
+    width: 199px;
+    height: 136px;
+    background: #262626;
+    border-radius: 10px;
+    flex: 0.33;
+    padding-left: 3.5%;
+    margin: 8;
+}
+
+.Projecttile:hover {
+    transform: scale(1.25);
+
+}
+
+#Independent_Study {
+    font-family: "Ubuntu", san-serif;
+    font-size: 30px;
+    color: #fff;
+
+}
+
+
+#Independent_Study_Text {
+    font-family: "Ubuntu", san-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+
+
+#UCRE {
+    font-family: "Ubuntu", san-serif;
+    font-size: 30px;
+    color: #fff;
+
+}
+
+
+#UCRE_Text {
+    font-family: "Ubuntu", san-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+#IXDS {
+    font-family: "Ubuntu", san-serif;
+    font-size: 30px;
+    color: #fff;
+
+}
+
+
+#IXDS_Text {
+    font-family: "Ubuntu", san-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+.product_Grid {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: [col]1fr [col]1fr [col]1fr;
+    grid-template-rows: [row]1fr [row]1fr [row]1fr;
+
+
+}
+
+.product_Grid_item.a0 {
+    grid-column: col 1/span 3;
+    grid-row: row 1;
+    overflow: hidden;
+
+}
+
+.product_Grid_item.a1 {
+    grid-column: col 1;
+    grid-row: row 2;
+    overflow: hidden;
+    margin: 10px;
+    margin-left: 20%;
+    margin-top: 10%;
+    height: 100%;
+    width: 75%;
+}
+
+.product_Grid_item.a2 {
+    grid-column: col 2;
+    grid-row: row 2;
+    overflow: hidden;
+    margin-left: 20%;
+    margin-top: 10%;
+    height: 100%;
+    width: 75%;
+}
+
+.product_Grid_item.a3 {
+    grid-column: col 3;
+    grid-row: row 2;
+    overflow: hidden;
+    margin-left: 20%;
+    margin-top: 10%;
+    height: 100%;
+    width: 75%;
+}
+
+
+
+/* About Us Page */
+
+.aboutpage {
+    display: flex;
+    background-color: #fff;
+    flex-direction: row
+}
+
+.summaryText {
+    font-family: "Ubuntu", san-serif;
+    font-size: 25px;
+    color: #000;
+}
+
+.summaryTextbox {
+    width: 3000px;
+    padding: 20px;
+    margin: 10px;
+    padding-top: 10%;
+}
+
+
+#resume {
+    color: #040404;
+    font-family: "Ubuntu", san-serif;
+    font-size: 30px;
+    background-color: transparent;
+    text-decoration: underline;
+    position: relative;
+    top: 45px;
+}
+
+.Resume {
+    padding-left: 10%;
+    padding-right: 30%;
+    margin-right: 30%;
+    margin-top: 50%;
+    padding-top: 10%;
+}
+
+.Linkedin {
+    width: 1px;
+    height: 1px;
+    padding: 20%;
+    margin: 10%;
+
+}
+
+#linkedin {
+    /* border: 5px solid gray; */
+    padding-left: 10%;
+    padding-right: 30%;
+    margin-right: 30%;
+    margin-top: 20%;
+    padding-top: 10%;
+
+}
+
+.Resume1 {
+    padding-left: 10%;
+    padding-right: 30%;
+    margin-right: 30%;
+    margin-top: 22%;
+}
+
+.about_Grid {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: [col]2fr [col]3fr [col]1fr;
+    grid-template-rows: [row]1fr [row]1fr;
+}
+
+.about_Grid_item {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.about_Grid_item.n1 {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-row-gap: 100px;
+    ;
+}
+
+.about_Grid_item.n2 {
+    grid-column: col 2;
+    grid-row: row 1;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    /* padding-right: px; */
+}
+
+.about_Grid_item.n3 {
+    grid-column: col 3;
+    grid-row: row 1;
+    /* min-width: 100%;
+    min-height: 100%; */
+
+}
+
+.about_page_Grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+
+/* Contact Page */
+
+
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: rgba(106, 106, 106, 0.6);
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Ubuntu", san-serif;
+    font-size: 20px;
+}
+
+.contact_Form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    height: 815px;
+}
+
+.Contact1 {
+    font-size: 40px;
+    font-family: "Ubuntu", san-serif;
+}
+
+#full {
+    font-family: "Ubuntu", san-serif;
+
+}
+
+#email {
+    font-family: "Ubuntu", san-serif;
+}
+
+#message {
+    font-family: "Ubuntu", san-serif;
+}
+
+#thankYou {
+    font-size: 40px;
+    font-family: "Ubuntu", san-serif;
+}
+
+button {
+    color: #D81A44
+}
+
+/* Project Page Individual */
+
+.headerBox {
+    background: #521572;
+    width: 234px;
+    height: 111px;
+    padding: 50px;
+    margin: 20px;
+}
+
+.arrow {
+    height: auto;
+    width: 100%;
+    padding-left: 5%;
+}
+
+
+
+.goalBox {
+    background: #521572;
+    padding: 50px;
+    margin: 20px;
+}
+
+.goalBoxtext {
+    font-family: "Ubuntu", san-serif;
+    font-size: 15px;
+    color: #fff;
+
+}
+
+.goalImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tugg {
+    width: 400px;
+    height: 325px;
+    margin: 10px;
+    margin-right: 500px;
+}
+
+.observe {
+    width: 400px;
+    height: 325px;
+    margin: 10px;
+    margin-right: 500px;
+}
+
+.automation {
+    width: 400px;
+    height: 325px;
+    margin: 10px;
+    margin-right: 500px;
+}
+
+/* Waste */
+
+.waste_Grid {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: [col]1fr [col]1fr [col]1fr;
+    grid-template-rows: [row]1fr [row]1fr [row]1fr;
+
+}
+
+.waste_Grid_item.p1 {
+    grid-column: col 1;
+    grid-row: row 1;
+    overflow: hidden;
+
+}
+
+.waste_Grid_item.p2 {
+    grid-column: col 1/span 2;
+    grid-row: row 2;
+    overflow: hidden;
+    padding: 10px;
+    /* margin-left: 20%;
+    margin-top: 10%;
+    height: 100%;
+    width: 75%; */
+}
+
+
+
+.waste_Grid_item.p3 {
+    grid-column: col 1/span 2;
+    grid-row: row 3;
+    overflow: hidden;
+    /* margin-left: 20%;
+    margin-top: 10%;
+    height: 100%;
+    width: 75%; */
+}
+
+.waste_Grid_item.p4 {
+    grid-column: col 1/span 2;
+    grid-row: row 4;
+    overflow: hidden;
+    /* margin-left: 20%;
+    margin-top: 10%;
+    height: 100%;
+    width: 75%; */
+}
+
+.waste_Grid_item.p5 {
+    grid-column: col 3;
+    grid-row: row 2;
+    overflow: hidden;
+    /* margin-left: 20%;
+    margin-top: 10%;
+    height: 100%;
+    width: 75%; */
+}
+
+.waste_Grid_item.p6 {
+    grid-column: col 3;
+    grid-row: row 3;
+    overflow: hidden;
+    /* margin-left: 20%;
+    margin-top: 10%;
+    height: 100%;
+    width: 75%; */
+}
+
+.waste_Grid_item.p7 {
+    grid-column: col 3;
+    grid-row: row 4;
+    overflow: hidden;
+    /* margin-left: 20%;
+    margin-top: 10%;
+    height: 100%;
+    width: 75%; */
+}
+
+.waste_Grid_item.p8 {
+    grid-column: col 3;
+    grid-row: row 1;
+    overflow: hidden;
+
+}
+
+/* Siri */
+
+.siri_Grid {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: [col]1fr [col]1fr;
+    grid-template-rows: [row]1fr [row]1fr [row]1fr;
+
+}
+
+.siri_Grid_item.p1 {
+    grid-column: col 1;
+    grid-row: row 1;
+    overflow: hidden;
+
+}
+
+.siri_Grid_item.p2 {
+    grid-column: col 1;
+    grid-row: row 2;
+    overflow: hidden;
+    /* margin-left: 20%;
+    margin-top: 10%;
+    height: 100%;
+    width: 75%; */
+}
+
+
+
+.siri_Grid_item.p3 {
+    grid-column: col 1;
+    grid-row: row 3;
+    overflow: hidden;
+    /* margin-left: 20%;
+    margin-top: 10%;
+    height: 100%;
+    width: 75%; */
+}
+
+.siri_Grid_item.p4 {
+    grid-column: col 1;
+    grid-row: row 4;
+    overflow: hidden;
+    /* margin-left: 20%;
+    margin-top: 10%;
+    height: 100%;
+    width: 75%; */
+}
+
+.siri_Grid_item.p5 {
+    grid-column: col 2;
+    grid-row: row 2;
+    overflow: hidden;
+    /* margin-left: 20%;
+    margin-top: 10%;
+    height: 100%;
+    width: 75%; */
+}
+
+.siri_Grid_item.p6 {
+    grid-column: col 2;
+    grid-row: row 3;
+    overflow: hidden;
+    /* margin-left: 20%;
+    margin-top: 10%;
+    height: 100%;
+    width: 75%; */
+}
+
+.siri_Grid_item.p7 {
+    grid-column: col 2;
+    grid-row: row 4;
+    overflow: hidden;
+    /* margin-left: 20%;
+    margin-top: 10%;
+    height: 100%;
+    width: 75%; */
+}
+
+#headertext {
+    font-family: "Ubuntu", san-serif;
+    font-size: 30px;
+    color: #fff;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+
+/* For any link */
+a:visited {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00BFB2;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+@media(max-width:840px) {
+
+    #line2 {
+        padding-top: 10%;
+    }
+
+    #line1 {
+        padding-bottom: 30%;
+    }
+
+    .Laughing_Ryan {
+        display: none;
+    }
+
+    #line4 {
+        padding-top: 20%
+    }
+
+
+
+}
+
+@media(max-width:1565px) {
+    .Resume1 {
+        padding-top: 28%;
+    }
+
+    #linkedin {
+        padding-top: 15%;
+
+    }
+}
+
+@media(max-width:1000px) {
+    .Resume1 {
+        padding-bottom: 61%;
+    }
+
+    #linkedin {
+        padding-bottom: 45%;
+
+    }
+}
+
+@media(max-width:850px) {
+    .Resume1 {
+        padding-bottom: 121%;
+    }
+
+    #linkedin {
+        padding-bottom: 90%;
+
+    }
+}
+
+@media(max-width:600px) {
+    .Resume1 {
+        padding-bottom: 161%;
+    }
+
+    #linkedin {
+        padding-bottom: 135%;
+
+    }
+}

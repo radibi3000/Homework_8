@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Below is the header tag on HTML providigng the important introductory information to the page-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
+</head>
+<!-- This is the body of the HTML code where the code is inputted.  -->
+
+<body>
+    <div class="fullpage">
+        <nav class="navigation">
+            <div class="Nav_flex">
+                <div>
+                    <a href="index.html"><img id="logo" src="Group 3.svg" alt="Home Button with my initials RA">
+                    </a>
+                    <!-- <div class="home_Button_text">
+                        <a href="index.html">RA</a>
+                    </div> -->
+                </div>
+                <ul class="menu">
+                    <li><a href="./Myprojects.html"> Projects </a></li>
+                    <li><a href="./Skills.html"> Skills </a></li>
+                    <li><a href="./About.html"> About </a></li>
+                    <li><a href="./Contactme.html"> Contact Me </a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="contact_Form">
+            <form action="">
+                <h3 class=" Contact1">Contact Me</h3>
+                <label for="name"> Full Name</label>
+                <input type="text" id="full" name="fullnname" placeholder="Your Full Name">
+
+                <label for="email"> Email</label>
+                <input type="text" id="email" name="email" placeholder="Your Email">
+
+                <label for="Message">Message</label>
+                <textarea id="message" name="message" placeholder="Your Message"></textarea>
+
+                <input id="button" onclick="thankYou()" type="button" value="Submit">
+
+                <p id="thankYou"></p>
+
+
+                <!-- Inspired by Contact form on w3 school with significant adjustments made to clarify it for my portfolio -->
+            </form>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
