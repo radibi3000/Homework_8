@@ -1,0 +1,145 @@
+/* About Us Page */
+
+.aboutpage {
+    display: flex;
+    background-color: #fff;
+    flex-direction: row
+}
+
+.summaryText {
+    font-family: "Ubuntu", san-serif;
+    font-size: 20px;
+    color: #000;
+}
+
+.summaryTextbox {
+    width: 3000px;
+    padding: 20px;
+    margin: 10px;
+    padding-top: 10%;
+}
+
+
+#resume {
+    color: #040404;
+    font-family: "Ubuntu", san-serif;
+    font-size: 25px;
+    background-color: transparent;
+    text-decoration: underline;
+    position: relative;
+    margin-top: -3px;
+}
+
+.Resume {
+    padding-left: 10%;
+    padding-right: 30%;
+    margin-right: 30%;
+    margin-top: 50%;
+    padding-top: 10%;
+}
+
+.Linkedin {
+    width: 1px;
+    height: 1px;
+    padding: 20%;
+    margin: 10%;
+
+}
+
+#linkedin {
+    /* border: 5px solid gray; */
+    padding-left: 10%;
+    padding-right: 30%;
+    margin-right: 30%;
+    margin-top: 20%;
+    padding-top: 10%;
+
+}
+
+.Resume1 {
+    padding-left: 10%;
+    padding-right: 30%;
+    margin-right: 30%;
+    margin-top: 22%;
+}
+
+#leftAbout {}
+
+#rightAbout {}
+
+
+.about_Grid {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: [col]2fr [col]3fr [col]1fr;
+    grid-template-rows: [row]1fr;
+    /*[row]1fr*/
+}
+
+.about_Grid_item {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.about_Grid_item.n1 {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-row-gap: 100px;
+    ;
+}
+
+.about_Grid_item.n2 {
+    grid-column: col 2;
+    grid-row: row 1;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    /* padding-right: px; */
+}
+
+.about_Grid_item.n3 {
+    grid-column: col 3;
+    grid-row: row 1;
+    /* min-width: 100%;
+    min-height: 100%; */
+
+}
+
+.about_page_Grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.aboutBody {
+    background-color: white;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutLeftLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.resumeAbout {
+    display: flex;
+    align-items: center;
+}
+
+.aboutRight {
+    margin-top: 50px;
+    width: 50%;
+    max-width: 600px;
+}

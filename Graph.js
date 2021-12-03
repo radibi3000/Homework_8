@@ -1,6 +1,6 @@
 window.onload = function () {
 
-    var chart = new CanvasJS.Chart("chartContainer", {
+    var chart = new CanvasJS.Chart("chart", {
         animationEnabled: true,
         theme: "dark2", // "light1", "light2", "dark1", "dark2"
         title: {
@@ -12,7 +12,7 @@ window.onload = function () {
         data: [{
             type: "column",
             showInLegend: true,
-            legendMarkerColor: "White",
+            legendMarkerColor: "#e4e2e0",
             legendText: "My Overall Experience",
             dataPoints: [{
                     y: 1,
