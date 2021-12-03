@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    height: 100vh;
 }
 
 .fullpage {
@@ -391,7 +392,6 @@ body {
     background-color: transparent;
     text-decoration: underline;
     position: relative;
-    top: 45px;
 }
 
 .Resume {
@@ -433,7 +433,8 @@ body {
     width: 100%;
     margin: auto;
     grid-template-columns: [col]2fr [col]3fr [col]1fr;
-    grid-template-rows: [row]1fr [row]1fr;
+    grid-template-rows: [row]1fr;
+    /*[row]1fr*/
 }
 
 .about_Grid_item {
