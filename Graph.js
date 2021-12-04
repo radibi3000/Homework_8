@@ -1,5 +1,6 @@
+// CanvasJS Function
 window.onload = function () {
-
+    // Creating the function
     var chart = new CanvasJS.Chart("chart", {
         animationEnabled: true,
         theme: "dark2", // "light1", "light2", "dark1", "dark2"
@@ -9,7 +10,7 @@ window.onload = function () {
         axisY: {
             title: "Years of Practice"
         },
-        data: [{
+        data: [{ // Setting the data/axis/style of the graph. 
             type: "column",
             showInLegend: true,
             legendMarkerColor: "#e4e2e0",
@@ -45,6 +46,6 @@ window.onload = function () {
             ]
         }]
     });
-    chart.render();
+    chart.render(); //Present the chart, Canvas.JS is free only in Trial mode, hence the trial message. 
 
 }

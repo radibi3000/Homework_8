@@ -19,7 +19,6 @@
     padding-top: 10%;
 }
 
-
 #resume {
     color: #040404;
     font-family: "Ubuntu", san-serif;
@@ -47,7 +46,6 @@
 }
 
 #linkedin {
-    /* border: 5px solid gray; */
     padding-left: 10%;
     padding-right: 30%;
     margin-right: 30%;
@@ -63,11 +61,8 @@
     margin-top: 22%;
 }
 
-#leftAbout {}
 
-#rightAbout {}
-
-
+/* Grid for about page */
 .about_Grid {
     display: grid;
     height: 100%;
@@ -144,6 +139,7 @@
     max-width: 600px;
 }
 
+/* fade in for image on about page */
 .Professional_Ryan {
     animation: fadeIn 15s;
     -webkit-animation: fadeIn 10s;

@@ -85,8 +85,7 @@ body {
     -ms-animation: fadeIn 20s;
 }
 
-
-
+/* Fade in animation for images */
 
 @keyframes fadeIn {
     0% {
@@ -138,6 +137,7 @@ body {
     }
 }
 
+/* Grid for Index page */
 .main_Grid {
     display: grid;
     height: 100%;
@@ -229,7 +229,7 @@ body {
 
 }
 
-/* For any link */
+/* For any link the hover feature interaction*/
 a {
     color: white;
 }
@@ -252,7 +252,7 @@ a:active {
     text-decoration: underline;
 }
 
-
+/* To promote responsiveness on the page used the @media */
 @media(max-width:840px) {
 
     #line2 {
@@ -274,7 +274,5 @@ a:active {
     #UX {
         padding-top: 40%
     }
-
-
 
 }

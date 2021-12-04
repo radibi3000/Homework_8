@@ -1,6 +1,8 @@
+// Typewriter Effect
+
 var i = 0;
 var text = 'UX Research and Product Management';
-var speed = 150;
+var speed = 130;
 
 function typeWriter() {
     if (i < text.length) {
@@ -13,7 +15,7 @@ function typeWriter() {
 
 
 
-
+// On click submit Thank You message
 function thankYou() {
     document.getElementById("thankYou").innerHTML = "Thank you, your email has been submitted! Excited to connect!";
 }
