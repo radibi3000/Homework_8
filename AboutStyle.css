@@ -143,3 +143,12 @@
     width: 50%;
     max-width: 600px;
 }
+
+.Professional_Ryan {
+    animation: fadeIn 15s;
+    -webkit-animation: fadeIn 10s;
+    -moz-animation: fadeIn 10s;
+    -o-animation: fadeIn 10s;
+    -ms-animation: fadeIn 20s;
+
+}

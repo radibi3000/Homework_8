@@ -85,14 +85,7 @@ body {
     -ms-animation: fadeIn 20s;
 }
 
-.Professional_Ryan {
-    animation: fadeIn 15s;
-    -webkit-animation: fadeIn 10s;
-    -moz-animation: fadeIn 10s;
-    -o-animation: fadeIn 10s;
-    -ms-animation: fadeIn 20s;
 
-}
 
 
 @keyframes fadeIn {
